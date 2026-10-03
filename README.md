@@ -19,7 +19,7 @@ I built this from a real workflow in my own business. The agent decides *what to
 ```bash
 npm install
 cp .env.example .env        # add your ANTHROPIC_API_KEY
-export $(cat .env | xargs)
+$env:ANTHROPIC_API_KEY="sk-ant-..."   # Windows PowerShell
 npm test                    # unit tests for pricing logic (no API key needed)
 npm start -- "Customer Hoa needs 12kg RAW-A and 6kg RAW-B"
 npm run eval                # end-to-end eval against 4 cases
