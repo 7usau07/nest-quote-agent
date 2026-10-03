@@ -1,0 +1,15 @@
+{
+  "name": "nest-quote-agent",
+  "version": "0.1.0",
+  "description": "Autonomous quoting agent for raw bird's nest wholesale: checks stock, applies volume pricing, drafts quotes for human approval.",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsx src/run.ts",
+    "eval": "tsx src/eval.ts",
+    "test": "tsx --test test/*.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": { "@anthropic-ai/sdk": "^0.60.0" },
+  "devDependencies": { "@types/node": "^22.0.0", "tsx": "^4.19.0", "typescript": "^5.6.0" }
+}

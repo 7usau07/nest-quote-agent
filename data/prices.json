@@ -1,0 +1,9 @@
+{
+  "currency": "VND",
+  "price_per_kg": { "RAW-A": 24000000, "RAW-B": 18500000, "RAW-C": 12000000 },
+  "volume_discounts": [
+    { "min_kg": 20, "percent": 8 },
+    { "min_kg": 10, "percent": 5 },
+    { "min_kg": 5, "percent": 3 }
+  ]
+}

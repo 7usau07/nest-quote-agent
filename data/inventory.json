@@ -1,0 +1,5 @@
+[
+  { "sku": "RAW-A", "description": "Raw nest, grade A (clean, whole cups)", "kg_available": 42 },
+  { "sku": "RAW-B", "description": "Raw nest, grade B (some feathers, minor breaks)", "kg_available": 80 },
+  { "sku": "RAW-C", "description": "Raw nest, grade C (broken pieces)", "kg_available": 15 }
+]
